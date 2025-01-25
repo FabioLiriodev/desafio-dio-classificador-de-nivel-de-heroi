@@ -1,26 +1,26 @@
 let nomeDoHeroi = "Arthur, The King";
-let nivelDoHeroi = 5201;
-let classificacaoDoHeroi = "";
+let xpDoHeroi = 5201;
+let nivelDoHeroi = "";
 
-if (nivelDoHeroi <= 1000) {
-    classificacaoDoHeroi = "Ferro";
-} else if (nivelDoHeroi >= 1001 && nivelDoHeroi <= 2000) {
-    classificacaoDoHeroi = "Bronze";
-} else if (nivelDoHeroi >= 2001 && nivelDoHeroi <= 5000) {
-    classificacaoDoHeroi = "Prata";
-} else if (nivelDoHeroi >= 5001 && nivelDoHeroi <= 7000) {
-    classificacaoDoHeroi = "Ouro"
-} else if (nivelDoHeroi >= 7001 && nivelDoHeroi <= 8000) {
-    classificacaoDoHeroi = "Platina Diamante"
-} else if (nivelDoHeroi >= 8001 && nivelDoHeroi <= 9000) {
-    classificacaoDoHeroi = "Ascendente"
-} else if (nivelDoHeroi >= 9001 && nivelDoHeroi <= 10000) {
-    classificacaoDoHeroi = "Imortal"
+if (xpDoHeroi <= 1000) {
+    nivelDoHeroi = "Ferro";
+} else if (xpDoHeroi >= 1001 && xpDoHeroi <= 2000) {
+    nivelDoHeroi = "Bronze";
+} else if (xpDoHeroi >= 2001 && xpDoHeroi <= 5000) {
+    nivelDoHeroi = "Prata";
+} else if (xpDoHeroi >= 5001 && xpDoHeroi <= 7000) {
+    nivelDoHeroi = "Ouro"
+} else if (xpDoHeroi >= 7001 && xpDoHeroi <= 8000) {
+    nivelDoHeroi = "Platina Diamante"
+} else if (xpDoHeroi >= 8001 && xpDoHeroi <= 9000) {
+    nivelDoHeroi = "Ascendente"
+} else if (xpDoHeroi >= 9001 && xpDoHeroi <= 10000) {
+    nivelDoHeroi = "Imortal"
 } else {
-    classificacaoDoHeroi = "Radiante"
+    nivelDoHeroi = "Radiante"
 }
 
-console.log("O herói de nome " + nomeDoHeroi + " " + "está no nível" + " " + nivelDoHeroi + " " + "com classificação" + " " + classificacaoDoHeroi);
+console.log("O herói de nome " + nomeDoHeroi + " " + "tem XP igual a" + " " + xpDoHeroi + " " + "e está no nível" + " " + nivelDoHeroi + "!");
 
 
 
